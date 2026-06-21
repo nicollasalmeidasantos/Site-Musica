@@ -22,9 +22,15 @@
             </div>
             <div class="botoesprogregr">
                 <button id="botaoregr" onclick="musicaanter()"><</button>
+                <button id="botaomenos" onclick="volume(0)">-</button>
+                <button id="botaoplay" onclick="play()"><img id="botaoplayimg" src="icons/play_circle_70dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png"></button> 
+                <button id="botaomais" onclick="volume(1)">+</button>               
                 <button id="botaoprog" onclick="proxmusica()">></button>
             </div>
         </main>
+        <audio id="audio">
+            <source id="source" src="musica/Thrift-shop.mp3" type="audio/mp3">
+        </audio>
     </body>
     <script src="javascript.js" defer></script>
 </html>
