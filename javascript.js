@@ -89,6 +89,7 @@ function mododark() {
     else if (!(body.classList.contains("mododark"))) {
         localStorage.setItem("dark", "off");
         document.getElementById("botaosecreto").style.display = "none";
+        esque.classList.remove('segredoimg');
         botao.setAttribute("src", "icons/sunny_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png");
     }
 }
